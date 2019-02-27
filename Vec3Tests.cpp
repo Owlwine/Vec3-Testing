@@ -19,3 +19,12 @@ TEST(Vec3, userDefinedConstructor)
     ASSERT_FLOAT_EQ(a.m_y,2.0f);
     ASSERT_FLOAT_EQ(a.m_z,3.0f);
 };
+
+TEST(Vec3, set)
+{
+    Vec3 b;
+    b.set(1.0f,2.0f,3.0f);
+    EXPECT_FLOAT_EQ(b.m_x,1.0f);
+    EXPECT_FLOAT_EQ(b.m_y,2.0f);
+    EXPECT_FLOAT_EQ(b.m_z,3.0f);
+};

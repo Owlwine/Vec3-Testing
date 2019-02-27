@@ -11,6 +11,7 @@ class Vec3
 
     ~Vec3() noexcept =default;
 
+    void set(float _x,float _y,float _z);
 
     Vec3(const Vec3 &)=default;
     Vec3 & operator=(const Vec3 &)=default;
