@@ -29,3 +29,9 @@ Then commit
 ```
 git commit -am "remove unwanted files"
 ```
+
+5. The -gitignore file
+
+```
+git commit -am "added ignore"
+```
